@@ -84,7 +84,7 @@ if DEV:
         }
     }
 else:
-    from localonly import DATABASES
+    from localonly.envar import DATABASES
 
 # Password validation
 # https://docs.djangoproject.com/en/dev/ref/settings/#auth-password-validators
